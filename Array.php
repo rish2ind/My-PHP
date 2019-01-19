@@ -13,7 +13,7 @@
 	</style>
 </head>
 <body>
-	<?php $games  = array("Hockey", "Cricket", "Badminton", "Football" );
+	<?php $games  = array("Hockey", "Cricket", "Badminton", "Football", "Shooting" );
 
 	?>
 	<h1 style="text-align: center; color: #ddd;">Array</h1>
@@ -23,6 +23,7 @@
 		<li><?php echo $games[1]; ?></li>
 		<li><?php echo $games[2]; ?></li>
 		<li><?php echo $games[3]; ?></li>
+		<li><?php echo $games[4]; ?></li>
 	</ul>
 </body>
 </html>
