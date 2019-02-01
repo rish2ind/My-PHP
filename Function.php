@@ -45,7 +45,13 @@
 		function myIndia(){
 			echo "India is my Country, and it is very strong and powerfull";
 		}
-		myIndia();
+		$nationalist = true;
+		if ($nationalist) {
+			myIndia();
+		}
+		else{
+			echo "You are antinationalist";
+		}
 	?>
 </div>
 </body>
